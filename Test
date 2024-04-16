@@ -1,0 +1,20 @@
+
+<html>
+	<body>
+		<script type="text/javascript">
+		var full_package_name = "com.gojek.partner";
+		var full_package_name_len = full_package_name.length;
+		var index_of_last_dash = full_package_name.lastIndexOf('-');
+		var package_name = index_of_last_dash < 0 ? full_package_name : full_package_name.slice(0,index_off_last_dash);
+		
+		var  app_link = "gojekdriver:\/\/";
+		var store_link = "market://details?id=com.gojek.partner";
+		var store_link_encoded = encodeURI(store_link);
+		var parts = app_link.split('//');
+		var scheme = parts.shipt();
+		var data = part.join('//');
+		var appsflyer_click_ts = date.now();
+		var intentUrl = intent://" + data + "#Intent;scheme=" + scheme + ";package=" + package_name + ";S.browser_fallback_url= location.href = intentUrl;
+		</script>
+	</body>
+</html>
